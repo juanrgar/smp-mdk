@@ -27,6 +27,7 @@ sources_h = \
 		   Mdk/Management/EventProvider.h \
 		   Mdk/Management/EventConsumer.h \
 		   Mdk/Management/EntryPointPublisher.h \
+		   Mdk/Management/ManagedModel.h \
 		   $(NULL)
 
 sources_c = \
@@ -46,6 +47,7 @@ sources_c = \
 		   Mdk/Management/EventProvider.cpp \
 		   Mdk/Management/EventConsumer.cpp \
 		   Mdk/Management/EntryPointPublisher.cpp \
+		   Mdk/Management/ManagedModel.cpp \
 		   $(NULL)
 
 lib_LTLIBRARIES = libsmpmdk.la
