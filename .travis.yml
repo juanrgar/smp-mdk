@@ -1,0 +1,15 @@
+language: cpp
+compiler: clang
+
+addons:
+    apt:
+        packages:
+            - libcppunit-dev
+
+install:
+    - ./autogen.sh
+    - ./configure
+    - make
+
+script:
+    - make check

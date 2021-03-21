@@ -1,0 +1,25 @@
+* Aggregate.h
+* Component.h
+* Composite.h
+* Container.h
+* EntryPoint.h
+* EventSink.h
+* EventSource.h
+* Factory.h
+* Invocator.h
+* Makefile
+* Management
+* Model.h
+* Object.cpp
+* Object.h
+* Reference.h
+* Request.h (done; more tests to be written)
+* SimpleTypes.h
+* Management/EntryPointPublisher.h
+* Management/EventConsumer.h
+* Management/EventProvider.h
+* Management/ManagedComponent.h
+* Management/ManagedContainer.h
+* Management/ManagedModel.h
+* Management/ManagedObject.h
+* Management/ManagedReference.h
