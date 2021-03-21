@@ -19,6 +19,7 @@ sources_h = \
 		   Mdk/Container.h \
 		   Mdk/Model.h \
 		   Mdk/Request.h \
+		   Mdk/Invocator.h \
 		   Mdk/Management/ManagedObject.h \
 		   Mdk/Management/ManagedComponent.h \
 		   Mdk/Management/ManagedContainer.h \
@@ -39,6 +40,7 @@ sources_c = \
 		   Mdk/Aggregate.cpp \
 		   Mdk/Model.cpp \
 		   Mdk/Request.cpp \
+		   Mdk/Invocator.cpp \
 		   Mdk/Management/ManagedObject.cpp \
 		   Mdk/Management/ManagedComponent.cpp \
 		   Mdk/Management/EventProvider.cpp \
