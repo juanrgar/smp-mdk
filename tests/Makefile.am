@@ -17,5 +17,5 @@ smp_sdk_tests_SOURCES = \
 						RequestTest.cpp \
 						ManagedContainerTest.cpp \
 						ManagedReferenceTest.cpp
-smp_sdk_tests_CXXFLAGS = $(CPPUNIT_CFLAGS) -I$(top_srcdir)/src -std=c++98
+smp_sdk_tests_CXXFLAGS = $(CPPUNIT_CFLAGS) -I$(top_srcdir)/src -std=c++11
 smp_sdk_tests_LDADD = $(CPPUNIT_LIBS) $(top_builddir)/src/libsmpmdk.la -ldl

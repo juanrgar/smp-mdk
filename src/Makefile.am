@@ -55,5 +55,5 @@ lib_LTLIBRARIES = libsmpmdk.la
 libsmpmdk_la_SOURCES = $(sources_c) $(sources_h)
 libsmpmdk_la_LIBADD = @LTLIBOBJS@
 libsmpmdk_la_CFLAGS = $(LIBSMPMDK_CFLAGS)
-libsmpmdk_la_CXXFLAGS = $(LIBSMPMDK_CXXFLAGS) -std=c++98
+libsmpmdk_la_CXXFLAGS = $(LIBSMPMDK_CXXFLAGS) -std=c++11
 libsmpmdk_la_LDFLAGS = -version-info $(LIBSMPMDK_LT_VERSION) -export-dynamic -no-undefined
